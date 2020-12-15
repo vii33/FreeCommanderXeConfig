@@ -1,0 +1,63 @@
+[ShortCuts]
+actFileEdit=0
+actEditSelect=0
+actEditSelectInvert=0
+actEditDeselect=0
+actExtrSettings=0
+actViewSplit100_50=Space
+
+[TfcViewerForm_ShortCuts]
+actViewModeText=T
+actViewModeBinText=B
+actViewModeTextHex=H
+actEditFind=Ctrl+F
+actEditFindNext=F3
+actFileNext=Right
+actFilePrevious=Left
+actFileEdit=F4
+actViewModeTextUnicode=U
+actViewModeTextRtfUtf=R
+actViewModeImageMultimedia=M
+actViewPlus=+ (ZEHNERTASTATUR)
+actViewMinus=- (ZEHNERTASTATUR)
+actViewOrigSize=Ctrl+ (ZEHNERTASTATUR)
+actViewWinSize=(ZEHNERTASTATUR)
+actViewRotateClockwise90=Ctrl+Right
+actViewRotateAntiClockwise90=Ctrl+Left
+actFileDelete=F8
+actFileProperties=Alt+Enter
+actViewModeInternetOffice=O
+actViewModePlugin=P
+actEditFindPrev=Ctrl+F3
+actEditCopy=Ctrl+C
+actEditSelectAll=Ctrl+A
+actFileSaveAs=Ctrl+S
+actEditGoTo=Ctrl+G
+actFileContextMenu=Shift+F10
+actFileReload=Ctrl+R
+actOptionsConfigure=F9
+actFileExit=Esc
+actViewFullScreen=Ctrl+F11
+actViewShowTargetForLnk=Ctrl+L
+actEditPaste=Ctrl+V
+actFileLinkToFileList=Shift+Ctrl+L
+actViewModeImages=I
+
+[TfcViewerFrame_ShortCuts]
+actViewModeText=Shift+Alt+T
+actViewModeBinText=Shift+Alt+B
+actViewModeTextHex=Shift+Alt+H
+actEditFind=Shift+Alt+F
+actViewModeTextUnicode=Shift+Alt+U
+actViewModeTextRtfUtf=Shift+Alt+R
+actViewModeImageMultimedia=Shift+Alt+M
+actViewPlus=Shift+Alt++ (ZEHNERTASTATUR)
+actViewMinus=Shift+Alt+- (ZEHNERTASTATUR)
+actViewOrigSize=Shift+Alt+ (ZEHNERTASTATUR)
+actViewRotateClockwise90=Shift+Alt+Right
+actViewRotateAntiClockwise90=Shift+Alt+Left
+actViewModeInternetOffice=Shift+Alt+O
+actViewModePlugin=Shift+Alt+P
+actViewShowTargetForLnk=Shift+Alt+L
+actViewModeImages=Shift+Alt+I
+
