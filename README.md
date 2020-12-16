@@ -22,7 +22,7 @@ Lack of comfort features  | Cluttered UI and bulky default settings | Optimized 
 ## Installation Instructions
 1. Install [FreeCommander XE](https://freecommander.com/en/summary/).
 1. Clone this git repository.
-(For beginners: Click on the green "Code" button and then on `Download ZIP`)
+(For beginners: Click on the green "Code" button and then on `Download ZIP`. Unzip the downloaded folder.)
 1. Open up FreeCommander. Go to `Tools / Restore all settings`. Select the cloned folder.
 1. Confirm and wait for FreeCommander to restart.
 1. Done!
