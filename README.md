@@ -1,5 +1,7 @@
 # FreeCommander XE Starter Configuration
 
+Corresponding Medium.com article with further explanation: ["Working with Windows feels tedious?"](https://veithammerstingl.medium.com/working-with-windows-feels-tedious-690ebc3ce914)
+
 ## Motivation
 
 For me, the features of the standard Windows Explorer are not sufficient. So I evaluated some alternative file explorers and stuck with [FreeCommander XE](https://freecommander.com/en/summary/). It's a great freeware and I can really recommend checking it out (see *Features* below).
