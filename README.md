@@ -9,7 +9,12 @@ In this repo you can finding a custom configuration for the Windows File Explore
 
 ### Updates
 
-2022-01-08: Added custom color scheme: **Dark mode!**
+- 2022-01-08: Added custom color scheme: **Dark mode!**
+- 2022-01-08: Updated to the latest configuration.
+
+
+----------
+
 
 ## Movitation
 
@@ -26,24 +31,6 @@ This hopefully helps people to get a head start with this powerful file explorer
 --- |---
 ![Vanilla FreeCommander](readme_images/fc1.PNG) | ![Customized FreeCommander Configuration](readme_images/fc2.PNG)
 Cluttered UI and bulky default settings | Optimized settings for better user experience
-
-----------
-
-
-## Installation Instructions
-1. Install [FreeCommander XE](https://freecommander.com/en/summary/).
-1. Clone this git repository.
-(For beginners: Click on the green "Code" button and then on `Download ZIP`. Unzip the downloaded folder.)
-1. Open up FreeCommander. Go to `Tools / Restore all settings`. Select the cloned folder.
-1. Confirm and wait for FreeCommander to restart.
-1. Done!
-
-**Remarks**
-- You have to update the links in the *favorites section* or create new ones yourself (right-click in the favorites section) 
-
-- When you change settings, hit the `Tools / Save Settings` button. These are not saved automatically to reduce the closing time of the software. You can re-enable this in the settings if you want to.
-
-- You can change the UI language under `Tools / Settings / General.`
 
 ----------
 
@@ -75,6 +62,24 @@ There are many more things FreeCommanderXE is capable of doing:
 * FreeCommanderXE has a very useful search function, where you can even fine-tune search parameters, e.g. search only for files or folders, set maximum file size and so on. Compare this to the Windows 10 search (not).
 * FreeCommanderXE is capable of doing diffs on two folders.
 * FreeCommanderXE has a built-in multi rename capability (not yet tested).
+
+----------
+
+
+## Installation Instructions
+1. Install [FreeCommander XE](https://freecommander.com/en/summary/).
+1. Clone this git repository.
+(For beginners: Click on the green "Code" button and then on `Download ZIP`. Unzip the downloaded folder.)
+1. Open up FreeCommander. Go to `Tools / Restore all settings`. Select the cloned folder.
+1. Confirm and wait for FreeCommander to restart.
+1. Done!
+
+**Remarks**
+- You have to update the links in the *favorites section* or create new ones yourself (right-click in the favorites section) 
+
+- When you change settings, hit the `Tools / Save Settings` button. These are not saved automatically to reduce the closing time of the software. You can re-enable this in the settings if you want to.
+
+- You can change the UI language under `Tools / Settings / General.`
 
 ----------
 
