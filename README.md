@@ -1,8 +1,17 @@
 # FreeCommander XE Starter Configuration
 
-Corresponding Medium.com article with further explanation: ["Working with Windows feels tedious?"](https://veithammerstingl.medium.com/working-with-windows-feels-tedious-690ebc3ce914)
+Corresponding Medium.com article with further explanation: ["Working with Windows feels tedious?"](https://medium.com/nerd-today/working-with-windows-feels-tedious-690ebc3ce914)
 
-## Motivation
+
+## TL;DR
+
+In this repo you can finding a custom configuration for the Windows File Explorer tool [FreeCommander XE](https://freecommander.com/en/summary/). It offers a lot of benefits in contrast to the standard Windows Explorer, but the user experience on the default UI is not optimal. So I tweaked it. Feel free to download and modify it to your liking.
+
+### Updates
+
+2022-01-08: Added custom color scheme: **Dark mode!**
+
+## Movitation
 
 For me, the features of the standard Windows Explorer are not sufficient. So I evaluated some alternative file explorers and stuck with [FreeCommander XE](https://freecommander.com/en/summary/). It's a great freeware and I can really recommend checking it out (see *Features* below).
 
@@ -13,10 +22,10 @@ This hopefully helps people to get a head start with this powerful file explorer
 
 **Screenshot Comparison**
 
-Vanilla Windows Explorer | Vanilla FreeCommander | Customized FreeCommander Configuration
---- |--- |---
-![Vanilla Windows Explorer](readme_images/winex1.PNG) | ![Vanilla FreeCommander](readme_images/fc1.PNG) | ![Customized FreeCommander Configuration](readme_images/fc2.PNG)
-Lack of comfort features  | Cluttered UI and bulky default settings | Optimized settings for better user experience
+ Vanilla FreeCommander UI | Customized FreeCommander Configuration (this)
+--- |---
+![Vanilla FreeCommander](readme_images/fc1.PNG) | ![Customized FreeCommander Configuration](readme_images/fc2.PNG)
+Cluttered UI and bulky default settings | Optimized settings for better user experience
 
 ----------
 
@@ -29,53 +38,48 @@ Lack of comfort features  | Cluttered UI and bulky default settings | Optimized 
 1. Confirm and wait for FreeCommander to restart.
 1. Done!
 
-> *Remark:* You have to update the links in the favorites section or create new ones yourself (right-click in the favorites section) 
+**Remarks**
+- You have to update the links in the *favorites section* or create new ones yourself (right-click in the favorites section) 
 
-> *Remark:* When you change settings, hit the `Tools / Save Settings` button. These are not saved automatically to reduce the closing time of the software. You can re-enable this in the settings if you want to.
+- When you change settings, hit the `Tools / Save Settings` button. These are not saved automatically to reduce the closing time of the software. You can re-enable this in the settings if you want to.
 
-> *Remark:* You can change the UI language under `Tools / Settings / General.`
+- You can change the UI language under `Tools / Settings / General.`
 
 ----------
 
 
-## Customized Features
+## My customized Features
 
 I generally customized a lot of UI colors and margins. These are the bigger FreeCommander features I optimized:
 
 Feature | Description | Shortcut | Screenshot
 --- | --- | --- | ---
-**Tabs**  | Use tabs instead of having to open multiple windows (similar to your browser). I edited the tab size and coloring to be easier recognizable.  | `New tab:` Double click on empty space right of a tab. `Restore tab:` Right-click in tab area an select `Recently closed...` | ![Screenshot](readme_images/fc2.PNG) 
-**Split View**  | Two parallel views for comparison use cases. Powerful feature, now easily accessible. | Press `Spacebar` to activate/deactivate | ![Screenshot](readme_images/fc5.PNG) 
-**Property-based file name colorizing**  | You can use any file property like date, size, type. My configuration colors *read-only* files & folders in red and *newly* created files in dark blue. This helps a lot in finding recently changed items.  | Done automatically. Editable under `Settings/View/File-Folder-List` | ![Screenshot](readme_images/fc4.PNG) 
-**Custom Action Toolbar**  | Fully customizable. I rearranged everything to better show relevant elements.  | Changeable with right-click on the `Action Toolbar`. | ![Screenshot](readme_images/fc6.PNG) 
-**Quick Filters**  | Easily pin down the one file you are looking for. Works in an instant. Capable of search expressions like logical ANDs. I enlarged the filter field to be more recognizable.  | See the documentation on the [FreeCommander Website](https://freecommander.com/fchelpxe/en/Quickfilter.html). | ![Screenshot](readme_images/fc3.PNG) 
-**Custom File Views**  | You can set what information is displayed in the file list. I edited a lot of smaller stuff here, like the column width. Also, I set up an *automatic change* from a list view to a thumbnail view, when more than half of the files in a folder are images.  | If you want to modify this, go to `Setting/View/Column Profiles`. | ![Screenshot](readme_images/fc8.PNG) 
-**Copy file paths to clipboard**  | You can select multiple files and get all their paths copied into the clipboard. Often handy in dev tasks.  | Just hit the marked button from the action bar. | ![Screenshot](readme_images/fc7a.PNG) ![Screenshot](readme_images/fc7b.PNG) 
+**Tabs**  | Use tabs instead of having to open multiple windows (similar to your browser). I edited the tab size and coloring to be easier recognizable.  | `New tab:` Double click on empty space right of a tab. `Restore tab:` Right-click in tab area an select `Recently closed...` | <a href="readme_images/fc2.PNG" target="_blank"> <img alt="Screenshot" src="readme_images/fc2.PNG"> </a> 
+**Split View**  | Two parallel views for comparison use cases. Powerful feature, now easily accessible. | Press `Spacebar` to activate/deactivate | <a href="readme_images/fc5.PNG" target="_blank"> <img alt="Screenshot" src="readme_images/fc5.PNG"> </a> 
+**Property-based file name colorizing**  | You can use any file property like date, size, type. My configuration colors *read-only* files & folders in red and *newly* created files in dark blue. This helps a lot in finding recently changed items.  | Done automatically. Editable under `Settings/View/File-Folder-List` | <a href="readme_images/fc4.PNG" target="_blank"> <img alt="Screenshot" src="readme_images/fc4.PNG"> </a> 
+**Custom Action Toolbar**  | Fully customizable. I rearranged everything to better show relevant elements.  | Changeable with right-click on the `Action Toolbar`. | <a href="readme_images/fc6.PNG" target="_blank"> <img alt="Screenshot" src="readme_images/fc6.PNG"> </a> 
+**Quick Filters**  | Easily pin down the one file you are looking for. Works in an instant. Capable of search expressions like logical ANDs. I enlarged the filter field to be more recognizable.  | See the documentation on the [FreeCommander Website](https://freecommander.com/fchelpxe/en/Quickfilter.html). | <a href="readme_images/fc3.PNG" target="_blank"> <img alt="Screenshot" src="readme_images/fc3.PNG"> </a> 
+**Custom File Views**  | You can set what information is displayed in the file list. I edited a lot of smaller stuff here, like the column width. Also, I set up an *automatic change* from a list view to a thumbnail view, when more than half of the files in a folder are images.  | If you want to modify this, go to `Setting/View/Column Profiles`. | <a href="readme_images/fc8.PNG" target="_blank"> <img alt="Screenshot" src="readme_images/fc8.PNG"> </a> 
+**Copy file paths to clipboard**  | You can select multiple files and get all their paths copied into the clipboard. Often handy in dev tasks.  | Just hit the marked button from the action bar. | <a href="readme_images/fc7a.PNG" target="_blank"> <img alt="Screenshot" src="readme_images/fc7a.PNG"> </a>  <a href="readme_images/fc7b.PNG" target="_blank"> <img alt="Screenshot" src="readme_images/fc7b.PNG"> </a> 
 **Fast parent folder navigation**  | *Small gem at the end:* You can double click on a free area in the file list to move up to the parent folder. You will miss this in Windows Explorer after 5 minutes of usage. I promise.  | `Double click on a folder:` Move hierarchy down. `Double click on a free area:` Move hierarchy up. | ![sonic image](https://i.pinimg.com/originals/df/98/da/df98da8cb74b9148c795d855bba96c79.png) 
 
 ----------
 
-## Further (untouched) Features
+## Further Features of FreeCommanderXE
 
 There are many more things FreeCommander is capable of doing:
 
-* You can start command prompts from your current folder. I disabled the input field for this, as I use a different approach and wanted to save UI space.
-* You can work with multiple "quick access" lists / favorite shortcuts. Handy, if you want to separate work folders from general folders.
-* You can choose other color themes, like a dark mode. 
-* FreeCommander is capable of doing diffs on two folders.
-* FreeCommander has a built-in multi rename capability (not yet tested).
-* FreeCommander has an actually useful search function, where you can fine-tune your parameters, e.g. search only files or folders, maximum file size and so on. Compare this to the current Windows 10 search.
+* You can start command prompts from your current folder. I disabled the input field for this, as I use a different approach (`Right click -> open PowerShell here`) and wanted to save UI space.
+* You can work with multiple "quick access" lists / favorite shortcuts. This is handy, if you want to separate your work folders from personal folders.
+* FreeCommanderXE is capable of doing diffs on two folders.
+* FreeCommanderXE has a built-in multi rename capability (not yet tested).
+* FreeCommanderXE has a very useful search function, where you can even fine-tune search parameters, e.g. search only for files or folders, set maximum file size and so on. Compare this to the Windows 10 search (not).
 
 ----------
 
-## Conclusion
+## Questions
 
-FreeCommander might be a bit overwhelming at first because there are a lot of tweaks possible. 
-
-In my opinion, it is worth the effort, though. This is due to two reasons: 
-
-First, you probably locate files on your computer each day, so you do this process very often. Therefore it should be customized to your needs. 
-Second, this is a rare effort, as you can save & backup your customizations.
+If you have questions just drop me a message. For further information I can recommend checking out the mentioned Medium article above.
 
 *Happy exploring!*
 
