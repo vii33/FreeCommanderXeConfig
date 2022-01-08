@@ -1,11 +1,3 @@
-[ShortCuts]
-actFileEdit=0
-actEditSelect=0
-actEditSelectInvert=0
-actEditDeselect=0
-actExtrSettings=0
-actViewSplit100_50=Space
-
 [TfcViewerForm_ShortCuts]
 actViewModeText=T
 actViewModeBinText=B
@@ -20,8 +12,6 @@ actViewModeTextRtfUtf=R
 actViewModeImageMultimedia=M
 actViewPlus=+ (ZEHNERTASTATUR)
 actViewMinus=- (ZEHNERTASTATUR)
-actViewOrigSize=Ctrl+ (ZEHNERTASTATUR)
-actViewWinSize=(ZEHNERTASTATUR)
 actViewRotateClockwise90=Ctrl+Right
 actViewRotateAntiClockwise90=Ctrl+Left
 actFileDelete=F8
@@ -43,21 +33,18 @@ actEditPaste=Ctrl+V
 actFileLinkToFileList=Shift+Ctrl+L
 actViewModeImages=I
 
-[TfcViewerFrame_ShortCuts]
-actViewModeText=Shift+Alt+T
-actViewModeBinText=Shift+Alt+B
-actViewModeTextHex=Shift+Alt+H
-actEditFind=Shift+Alt+F
-actViewModeTextUnicode=Shift+Alt+U
-actViewModeTextRtfUtf=Shift+Alt+R
-actViewModeImageMultimedia=Shift+Alt+M
-actViewPlus=Shift+Alt++ (ZEHNERTASTATUR)
-actViewMinus=Shift+Alt+- (ZEHNERTASTATUR)
-actViewOrigSize=Shift+Alt+ (ZEHNERTASTATUR)
-actViewRotateClockwise90=Shift+Alt+Right
-actViewRotateAntiClockwise90=Shift+Alt+Left
-actViewModeInternetOffice=Shift+Alt+O
-actViewModePlugin=Shift+Alt+P
-actViewShowTargetForLnk=Shift+Alt+L
-actViewModeImages=Shift+Alt+I
+[ShortCuts]
+actFileEdit=0
+actEditSelect=0
+actEditSelectInvert=0
+actEditDeselect=0
+actViewDetails=F10
+actDosPromptGoTo=0
+actDosPromptPath2CommandLine=0
+actExtrSettings=0
+actViewQuickView=Space
+actViewDetailsAutoSizeColumns=0
+actViewSwitchToNextView=0
+actViewSplit100_50=Ctrl+Space
+actViewImgBrowser120=F9
 
