@@ -48,32 +48,33 @@ Cluttered UI and bulky default settings | Optimized settings for better user exp
 ----------
 
 
-## My customized Features
+## FreeCommanderXE Features and customizations
 
-I generally customized a lot of UI colors and margins. These are the bigger FreeCommander features I optimized:
+I generally customized a lot of UI colors and margins. Following some FreeCommanderXE features I edited:
 
 Feature | Description | Shortcut | Screenshot
 --- | --- | --- | ---
 **Tabs**  | Use tabs instead of having to open multiple windows (similar to your browser). I edited the tab size and coloring to be easier recognizable.  | `New tab:` Double click on empty space right of a tab. `Restore tab:` Right-click in tab area an select `Recently closed...` | <a href="readme_images/fc2.PNG" target="_blank"> <img alt="Screenshot" src="readme_images/fc2.PNG"> </a> 
-**Split View**  | Two parallel views for comparison use cases. Powerful feature, now easily accessible. | Press `Spacebar` to activate/deactivate | <a href="readme_images/fc5.PNG" target="_blank"> <img alt="Screenshot" src="readme_images/fc5.PNG"> </a> 
-**Property-based file name colorizing**  | You can use any file property like date, size, type. My configuration colors *read-only* files & folders in red and *newly* created files in dark blue. This helps a lot in finding recently changed items.  | Done automatically. Editable under `Settings/View/File-Folder-List` | <a href="readme_images/fc4.PNG" target="_blank"> <img alt="Screenshot" src="readme_images/fc4.PNG"> </a> 
-**Custom Action Toolbar**  | Fully customizable. I rearranged everything to better show relevant elements.  | Changeable with right-click on the `Action Toolbar`. | <a href="readme_images/fc6.PNG" target="_blank"> <img alt="Screenshot" src="readme_images/fc6.PNG"> </a> 
-**Quick Filters**  | Easily pin down the one file you are looking for. Works in an instant. Capable of search expressions like logical ANDs. I enlarged the filter field to be more recognizable.  | See the documentation on the [FreeCommander Website](https://freecommander.com/fchelpxe/en/Quickfilter.html). | <a href="readme_images/fc3.PNG" target="_blank"> <img alt="Screenshot" src="readme_images/fc3.PNG"> </a> 
-**Custom File Views**  | You can set what information is displayed in the file list. I edited a lot of smaller stuff here, like the column width. Also, I set up an *automatic change* from a list view to a thumbnail view, when more than half of the files in a folder are images.  | If you want to modify this, go to `Setting/View/Column Profiles`. | <a href="readme_images/fc8.PNG" target="_blank"> <img alt="Screenshot" src="readme_images/fc8.PNG"> </a> 
-**Copy file paths to clipboard**  | You can select multiple files and get all their paths copied into the clipboard. Often handy in dev tasks.  | Just hit the marked button from the action bar. | <a href="readme_images/fc7a.PNG" target="_blank"> <img alt="Screenshot" src="readme_images/fc7a.PNG"> </a>  <a href="readme_images/fc7b.PNG" target="_blank"> <img alt="Screenshot" src="readme_images/fc7b.PNG"> </a> 
-**Fast parent folder navigation**  | *Small gem at the end:* You can double click on a free area in the file list to move up to the parent folder. You will miss this in Windows Explorer after 5 minutes of usage. I promise.  | `Double click on a folder:` Move hierarchy down. `Double click on a free area:` Move hierarchy up. | ![sonic image](https://i.pinimg.com/originals/df/98/da/df98da8cb74b9148c795d855bba96c79.png) 
+**Split View**  | Two parallel views for comparison use cases. Powerful feature, now easily accessible. | Press `Ctrl + Spacebar` to activate/deactivate | <a href="readme_images/fc5.PNG" target="_blank"> <img alt="Screenshot" src="readme_images/fc5.PNG"> </a> 
+**Property-based file name colorizing**  | My configuration colors *read-only* files & folders in red and *recently* edited files in dark blue. This really usefull in finding recently changed items (believe me).  | Done automatically. Colors are editable under `Settings/View/File-Folder-List` | <a href="readme_images/fc4.PNG" target="_blank"> <img alt="Screenshot" src="readme_images/fc4.PNG"> </a> 
+**Quick Filters**  | Easily pin down the one file you are looking for. Works in an instant. Capable of search expressions like logical ANDs.  | See the documentation on the [FreeCommander Website](https://freecommander.com/fchelpxe/en/Quickfilter.html). | <a href="readme_images/fc3.PNG" target="_blank"> <img alt="Screenshot" src="readme_images/fc3.PNG"> </a> 
+**Custom Action Toolbar**  | I rearranged all the items and show only a small set of useful ones.  | Customizable with right-click on the `Action Toolbar`. | <a href="readme_images/fc6.PNG" target="_blank"> <img alt="Screenshot" src="readme_images/fc6.PNG"> </a> 
+**File Quick View**  | You can preview files in a sperated area with the click of a button. I chose `spacebar` (like on MacOS). The quick viewer can display text files, pdfs, images, and much more. | Press `space` to open/close quick file view. | <a href="readme_images/fc9.PNG" target="_blank"> <img alt="Screenshot" src="readme_images/fc9.PNG"> </a>
+**Copy file paths to clipboard**  | You can select multiple files and get all their paths copied into the clipboard. Often handy in development tasks.  | Just hit the marked button from the action toolbar. | <a href="readme_images/fc7a.PNG" target="_blank"> <img alt="Screenshot" src="readme_images/fc7a.PNG"> </a>  <a href="readme_images/fc7b.PNG" target="_blank"> <img alt="Screenshot" src="readme_images/fc7b.PNG"> </a> 
+**Dark Mode (*new*)**  | I added a custom dark mode based on the colors of VS Studio Code. *Note*: Not all colors can be changed currently.  | Make sure you copied the `ColorSchemes` folder to your FreeCommanderXE installation location. Then change the schema via `View/Color Schemes/ Dark_Midnight_by_vii` | <a href="readme_images/dark_mode.PNG" target="_blank"> <img alt="Screenshot" src="readme_images/dark_mode.PNG"> </a>  
+**Fast parent folder navigation**  | *Small gem at the end:* You can double click on a *free* area in the file list to move up to the parent folder. So basically inverse to double click on a folder. You will miss this in Windows Explorer after 5 minutes of usage. I promise.  | `Double click on a folder:` Move hierarchy down. `Double click on a free area:` Move hierarchy up. | <img width="200" alt="Screenshot" src="https://i.pinimg.com/originals/df/98/da/df98da8cb74b9148c795d855bba96c79.png"> 
 
 ----------
 
 ## Further Features of FreeCommanderXE
 
-There are many more things FreeCommander is capable of doing:
+There are many more things FreeCommanderXE is capable of doing:
 
-* You can start command prompts from your current folder. I disabled the input field for this, as I use a different approach (`Right click -> open PowerShell here`) and wanted to save UI space.
-* You can work with multiple "quick access" lists / favorite shortcuts. This is handy, if you want to separate your work folders from personal folders.
+* You can start command prompts from your current folder. I disabled the input field for this, as I use a different approach (`Right click -> open PowerShell here`) and wanted to save UI space. You can reenable this, if you want to.
+* You can work with multiple "quick access" lists / favorite shortcut list. This is handy, if you want to separate your work folders from personal folders.
+* FreeCommanderXE has a very useful search function, where you can even fine-tune search parameters, e.g. search only for files or folders, set maximum file size and so on. Compare this to the Windows 10 search (not).
 * FreeCommanderXE is capable of doing diffs on two folders.
 * FreeCommanderXE has a built-in multi rename capability (not yet tested).
-* FreeCommanderXE has a very useful search function, where you can even fine-tune search parameters, e.g. search only for files or folders, set maximum file size and so on. Compare this to the Windows 10 search (not).
 
 ----------
 
